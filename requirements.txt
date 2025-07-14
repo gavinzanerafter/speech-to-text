@@ -1,0 +1,9 @@
+torch
+torchaudio
+transformers
+datasets
+librosa
+jiwer
+fastapi
+uvicorn
+onnxruntime
