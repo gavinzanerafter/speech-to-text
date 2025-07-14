@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.env
+
+# OS junk
+.DS_Store
+
+# Big files & models
+*.bin
+*.pt
+*.onnx
+data/
+.cache/
