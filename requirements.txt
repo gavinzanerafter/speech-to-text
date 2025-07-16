@@ -7,3 +7,4 @@ jiwer
 fastapi
 uvicorn
 onnxruntime
+python-multipart

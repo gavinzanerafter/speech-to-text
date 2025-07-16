@@ -1,7 +1,18 @@
-import librosa
 import numpy as np
 
 def chunk_audio(audio, sr, chunk_duration=30, overlap=2):
+    """
+    Splits audio into overlapping chunks.
+
+    Args:
+        audio (np.ndarray): 1D audio array
+        sr (int): sample rate (Hz)
+        chunk_duration (int): chunk length in seconds
+        overlap (int): overlap between chunks in seconds
+
+    Returns:
+        List[np.ndarray]: list of audio chunks
+    """
     chunk_samples = int(chunk_duration * sr)
     overlap_samples = int(overlap * sr)
     chunks = []
