@@ -1,5 +1,9 @@
 # speech-to-text
 
+## Example of How to Use Front-end
+
+https://github.com/user-attachments/assets/005920bd-0705-48a6-8b29-2e4cbbc1e65c
+
 ## Setup
 Clone the repo:
 ```bash
