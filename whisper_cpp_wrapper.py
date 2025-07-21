@@ -9,7 +9,7 @@ class WhisperCPP:
         if binary is None:
             binary = os.path.join(here, "whisper.cpp", "build", "bin", "whisper-cli")
         if model is None:
-            model = os.path.join(here, "whisper.cpp", "models", "ggml-small.en.bin")
+            model = os.path.join(here, "whisper.cpp", "models", "ggml-tiny-q5_1.bin")
 
         if not os.path.isfile(binary):
             raise FileNotFoundError(f"whisper.cpp binary not found at {binary}")
