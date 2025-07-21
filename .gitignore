@@ -1,18 +1,28 @@
-# Python artifacts
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.egg-info/
+.venv/
 venv/
-.env
+
+# Whisper.cpp build artifacts
+whisper.cpp/build/
+whisper.cpp/bin/
+whisper.cpp/main
+whisper.cpp/*.o
+
+# Models - do NOT commit large models to git
+whisper.cpp/models/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
 
 # OS junk
 .DS_Store
 
-# Big files & models
-*.bin
-*.pt
-*.onnx
-data/
-.cache/
+# Logs
+*.log
+
